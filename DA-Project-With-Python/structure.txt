@@ -1,0 +1,20 @@
+data-analysis-project/
+│
+├── data/
+│   ├── raw/            # datos originales sin tocar
+│   ├── cleaned/        # datos limpiados
+│   └── external/       # (opcional) otros datos de apoyo
+│
+├── notebooks/          # cuadernos de exploración (más flexible)
+│   └── 01_exploration.ipynb
+│
+├── scripts/            # scripts .py para limpieza y análisis
+│   ├── clean_data.py
+│   ├── analyze_data.py
+│   └── dashboard.py     # si lo haces como script
+│
+├── output/
+│   ├── figures/         # gráficos generados
+│   └── dashboard/       # archivos del dashboard (html, etc)
+│
+└── README.md            # explicación del proyecto
